@@ -27,7 +27,6 @@
 
 \linespread{0.95}
 
-\makeatletter
 \renewcommand{\maketitle}{
     \vspace*{0.64cm}
     \begin{center}
@@ -48,7 +47,6 @@
     \end{center}
     \vspace*{0.21cm}
 }
-\makeatother
 
 \renewenvironment{abstract}{
     \noindent\bfseries\textit{Abstract} --- 
