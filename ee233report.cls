@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{ee233report}[2018/08/01 A Class for EE 233 Report]
 
-\LoadClass[11pt]{article}
+\LoadClass[11pt, letter]{article}
 
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX]{Times New Roman}
