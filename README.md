@@ -26,11 +26,11 @@ The LaTex built-in `\twocolumn` is known to create a page break after the redefi
 To add boxes to figures, the `figure` environment may be redefined, but it is impossible to make the redefined version identical to the original. It is recommended to use the `mdframed` package (also included in the class) to add the boxes:
 
 ```latex
-\begin{mdframed}
-    \begin{figure}
+\begin{figure}
+    \begin{mdframed}
         % Your figure here
-    \end{figure}
-\end{mdframed}
+    \end{mdframed}
+\end{figure}
 ```
 
 ### Table Styles
