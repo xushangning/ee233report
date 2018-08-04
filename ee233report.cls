@@ -28,24 +28,25 @@
 \linespread{0.95}
 
 \renewcommand{\maketitle}{
-    \vspace*{0.64cm}
     \begin{center}
+        \vspace*{6pt}
         {
             \fontsize{16pt}{0pt}\selectfont\@title
         }
 
-        \vspace*{0.21cm}
+        \vspace*{6pt}
         \@author
 
-        \vspace*{0.21cm}
+        \vspace*{6pt}
         EE233 Circuit Theory
+        \vspace*{6pt}
 
-        \vspace*{0.64cm}
+        \vspace*{8pt}
         {
             \small DEPARTMENT OF ELECTRICAL ENGINEERING, UNIVERSITY OF WASHINGTON, SEATTLE, WA, 98195
         }
     \end{center}
-    \vspace*{0.21cm}
+    \vspace*{6pt}
 }
 
 \renewenvironment{abstract}{
