@@ -14,7 +14,7 @@ The LaTex built-in `\twocolumn` is known to create a page break after the redefi
 
 ```latex
 % place multicols environment below \maketitle
-\begin{multicols}[2]
+\begin{multicols}{2}
 
 % Your document body here
 
