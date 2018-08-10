@@ -13,6 +13,8 @@
 \usepackage{multicol}
 \usepackage{float}
 \usepackage{mdframed}
+% Select a language with no hyphenation to disable hyphenation
+\RequirePackage[none]{hyphenat}
 
 \setlength{\columnsep}{2.16ex}
 
