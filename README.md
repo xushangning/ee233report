@@ -35,4 +35,18 @@ To add boxes to figures, the `figure` environment may be redefined, but it is im
 
 ### Table Styles
 
-Again, redefinition of built-in environment is undesirable. There are many LaTex table generators out there in the wilds, and manually styling the tables are not difficult, given that the style in the handed-out template is simple.
+Again, redefinition of built-in environment is undesirable. There are many LaTex table generators out there in the wilds. To generate thicker horizontal lines, the included package `makecell` provides `\Xhline`:
+
+```latex
+\begin{tabular}{l|l}
+    \Xhline{1.5pt}
+    Activity & Student Name \\ \hline
+    Prelab/Circuit Analysis &  \\ \hline
+    Prelab/Simulations &  \\ \hline
+    Prelab/answer questions &  \\ \hline
+    Circuit construction &  \\ \hline
+    Data collection &  \\ \hline
+    Data analysis &  \\ \hline
+    Lab report writing &  \\ \Xhline{1.5pt}
+\end{tabular}
+```

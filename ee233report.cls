@@ -15,6 +15,7 @@
 \usepackage{mdframed}
 % Select a language with no hyphenation to disable hyphenation
 \RequirePackage[none]{hyphenat}
+\RequirePackage{makecell}
 
 \setlength{\columnsep}{2.16ex}
 
