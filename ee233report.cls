@@ -26,7 +26,7 @@
 % paragraph that immediately follows the section heading
 \titlespacing{\section}{0pt}{0.64cm}{0.21cm}
 
-\setlength{\parindent}{0.33cm}
+\setlength{\parindent}{0.32cm}
 
 \linespread{0.95}
 
