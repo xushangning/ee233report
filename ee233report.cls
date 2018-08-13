@@ -16,6 +16,7 @@
 % Select a language with no hyphenation to disable hyphenation
 \RequirePackage[none]{hyphenat}
 \RequirePackage{makecell}
+\RequirePackage{enumitem}
 
 \setlength{\columnsep}{2.16ex}
 
@@ -29,6 +30,8 @@
 \setlength{\parindent}{0.32cm}
 
 \linespread{0.95}
+
+\setlist{nosep}
 
 \renewcommand{\maketitle}{
     \begin{center}
